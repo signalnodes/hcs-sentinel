@@ -1,6 +1,6 @@
 {
   "name": "hcs-sentinel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Real-time HCS-backed package release monitoring for critical Hedera ecosystem npm dependencies.",
   "type": "module",
   "main": "dist/cli/index.js",
@@ -35,7 +35,7 @@
     "tar": "^7.5.13",
     "zod": "^4.3.6"
   },
-    "devDependencies": {
+  "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^25.5.0",
     "@types/tar": "^6.1.13",
