@@ -2,6 +2,11 @@
 
 Real-time package release monitoring for critical Hedera ecosystem npm dependencies. `hcs-sentinel` detects new releases, analyzes them for suspicious changes, stores findings locally, and can publish structured alert events to an HCS topic.
 
+## Example output
+
+Detects suspicious package changes and publishes tamper-evident alerts to HCS:
+![hcs-sentinel output](./docs/screenshot.png)
+
 ## Status
 
 **v0.1.0 is an experimental testnet-first release.**  
